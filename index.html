@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FULLSCREEN POPUP -->
+<div id="popupOverlay">
+    <div id="popupBox">
+        <button id="closePopup">✕</button>
+        <h2>Welcome!</h2>
+        <img id="popupImage" src="images/placeholder.png" alt="Popup Image">
+        <p>This popup appears once on load. You can use it for instructions or alerts.</p>
+    </div>
+</div>
+
+<!-- MAIN HOMEPAGE CONTENT -->
+<div class="container">
+    <img class="blur-image" id="mainImage" src="images/placeholder.png" alt="Centered Image">
+
+    <p class="privacy">
+        We do not use or share your location. We use location for peer-to-peer PGP verification signatures. 
+        We never use or share your location. We aim to be the most secure.
+    </p>
+
+    <button class="gps-btn" id="gpsBtn">Get My Current Location</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
